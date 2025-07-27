@@ -133,7 +133,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(158, 184, 173, 0.85), rgba(158, 184, 173, 0.85)), url(tree.png) no-repeat center center/cover;
+    background: linear-gradient(rgba(158, 184, 173, 0.85), rgba(158, 184, 173, 0.85)), url(meeting.jpg) no-repeat center center/cover;
     color: black;
     text-align: center;
     padding: 180px 0;
@@ -312,6 +312,7 @@ body {
     color: var(--light-text-color);
     text-align: center;
 }
+
 
 /* Donation Section (New Styles) */
 .donation-options {
@@ -617,71 +618,6 @@ body {
     margin: 0 auto; /* Center button */
 }
 
-/* Developer Credits Section (New Styles) */
-.developer-credits-section {
-    background-color: var(--white); /* Light background for contrast */
-}
-
-.developer-info {
-    max-width: 700px;
-    margin: 50px auto 0;
-    text-align: center;
-    padding: 30px;
-    border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow);
-    background-color: var(--light-bg);
-}
-
-.developer-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 25px;
-    border: 5px solid var(--accent-color);
-    box-shadow: 0 0 0 5px rgba(255, 193, 7, 0.3); /* Outer glow */
-}
-
-.developer-info h3 {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 15px;
-    border-bottom: none; /* Override section h3 style */
-    padding-bottom: 0;
-    display: block;
-}
-
-.developer-info p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: var(--light-text-color);
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.developer-contact {
-    font-size: 1.1rem;
-    margin-top: 25px;
-    color: var(--secondary-color);
-    text-align: center;
-}
-
-.developer-contact i {
-    color: var(--primary-color);
-    margin-right: 10px;
-    font-size: 1.2rem;
-}
-
-.developer-contact a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.developer-contact a:hover {
-    text-decoration: underline;
-    color: var(--accent-color);
-}
 
 
 /* Footer */
@@ -910,4 +846,23 @@ body {
     .footer-col p, .footer-col ul li a, .copyright p {
         font-size: 0.85rem;
     }
+}
+/* ফুটারের ডেভেলপার সিগনেচারের জন্য স্টাইল */
+.developer-signature {
+    font-size: 0.85rem; /* ফন্ট সাইজ ছোট হবে */
+    color: rgba(255, 255, 255, 0.6); /* হালকা সাদা রঙ */
+    margin-top: 15px; /* কপিরাইট টেক্সট থেকে একটু নিচে নামবে */
+    line-height: 1.4;
+    text-align: center; /* কেন্দ্রে থাকবে */
+}
+
+.developer-signature a {
+    color: rgba(255, 255, 255, 0.9); /* ফুটারের লিংকের রঙ */
+    text-decoration: none; /* আন্ডারলাইন থাকবে না */
+    font-weight: 500;
+}
+
+.developer-signature a:hover {
+    text-decoration: underline; /* হোভার করলে আন্ডারলাইন হবে */
+    color: var(--accent-color); /* হোভার করলে অ্যাকসেন্ট রঙ হবে */
 }
