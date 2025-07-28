@@ -812,6 +812,21 @@ body {
     .logo a {
         font-size: 1.5rem;
     }
+
+.contact-details p { /* <--- এখান থেকে আপনার কোড যোগ করুন */
+        font-size: 0.95rem; /* মোবাইলে ফন্ট সাইজ সামান্য কমানো হয়েছে */
+    }
+
+    .contact-details i {
+        font-size: 1.3rem; /* মোবাইলে আইকনের আকার সামঞ্জস্য করা হয়েছে */
+    }
+    /* ... অন্যান্য স্টাইল ... */ /* <--- এই অংশের উপরে */
+
+    .footer-col h3 {
+        font-size: 1.2rem;
+    }
+    /* ... অন্যান্য স্টাইল ... */
+
     .hero-section {
         padding: 100px 0;
         min-height: 450px;
